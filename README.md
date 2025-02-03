@@ -77,7 +77,7 @@ This is the user interface for ChatGPT. 2 aspects of this user interface that wo
 - This is a problem throughout goSFU whenever it is used. However, due to it doing little practical damage to a user it is deserving of a severity rating of 2.
 
 
-## Heuristic Evaluation: gosfu academic progress page
+## Heuristic Evaluation: Netflix Skip Intro
 
 ![Good User Interface 1](GoodUI1.png)
 
@@ -133,12 +133,17 @@ Branches on github let devs work on things seperately without affecting the main
 
 3. Suppose you have 2 branches on github (develop and production) and you are currently on the develop branch. In your own words, describe what following git commands do:
 
-git checkout -b test
+git checkout -b test:
+
     Creates a new branch called test
 
-git checkout develop
+git checkout develop:
+
     Switches to develop branch
 
-git branch -D test
+git branch -D test:
+
     Deletes test branch
 
+
+[AI Declaration Form](L3_AI_DECLARATION_ERIK_SCHAUFELE_301579449.pdf)
