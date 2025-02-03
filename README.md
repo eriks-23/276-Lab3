@@ -29,10 +29,116 @@ This is the user interface for ChatGPT. 2 aspects of this user interface that wo
 
 
 
-# Heuristic Evaluation
+# Heuristic Evaluations
+
+## Heuristic Evaluation: gosfu academic progress page
+
+![goSFU](BadUI2.png)
+
+## Name
+- goSFU's styling
+
+## Problem/Good
+
+- Problem
+
+## Relevant Heuristic
+
+- Aesthetic and Minimalistic Design
+
+## Evidence of Issue
+
+- The site has a dated look with small text and elements cramped together.
+
+## Detailed Explanation
+
+- The site has small text that is cramped together likely made for lower resolution screens this makes it difficult to read. The site also lacks much of a theme it looks like a simple html site with styling seemingly an after thought the style of the site also doesn't match others SFU uses like Coursys or Canvas.
+
+## Severity (minor, major, critical)
+
+- 2 -Minor
+
+## Justification
+
+### Frequency
+
+- This is an issue whenever a user uses goSFU.
+
+### Impact
+
+- This is relatively low impact other than annoyance of small text as the site is still functional.
+
+### Persistence
+
+- This is a problem each time goSFU is used.
+
+### Weighting
+
+- This is a problem throughout goSFU whenever it is used. However, due to it doing little practical damage to a user it is deserving of a severity rating of 2.
 
 
+## Heuristic Evaluation: gosfu academic progress page
 
+![Good User Interface 1](GoodUI1.png)
 
-# Github Video
+## Name
+- Skip Intro button
+
+## Problem/Good
+
+- Good
+
+## Relevant Heuristic
+
+- User Control and Freedom
+
+## Evidence of Solution
+
+- There is a button to skip the intro of a show
+
+## Detailed Explanation
+
+- Users often skip the intro's of shows they watch so Netflix implemented a convinient button to skip right to the end of the intro.
+
+## Severity (minor, major, critical)
+
+- 3 -Major
+
+## Justification
+
+### Frequency
+
+- This button shows each time an intro plays.
+
+### Impact
+
+- This is a fairly low impact but nice quality of life improvement for the user.
+
+### Persistence
+
+- This shows each time an intro plays.
+
+### Weighting
+
+- This fixes the problem the user has of having to rewatch the same intro each time they watch an episode of a series, this fixes it in an un intrusive way that allows the user to watch the intro or skip to the end.
+
+# Github Video + Questions
+
+1. In 2-3 sentences, explain the purpose of having different branches on github.
+Branches on github let devs work on things seperately without affecting the main code or code that is pushed as a final product. For instance a test branch could be made that allows testing of features before merging into main.
+
+2. What are 2 ways to create a new branch on github? List the steps to create a new branch using each method.
+    1. Open terminal, go to repo, run: git checkout -b new-branch-name, git push -u origin new-branch-name
+    2. Go to repo on github website, create new branch from branch selector drop down
+
+3. Suppose you have 2 branches on github (develop and production) and you are currently on the develop branch. In your own words, describe what following git commands do:
+
+git checkout -b test
+    Creates a new branch called test
+
+git checkout develop
+    Switches to develop branch
+
+git branch -D test
+    Deletes test branch
 
